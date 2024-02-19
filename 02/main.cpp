@@ -14,9 +14,6 @@ public:
 };
 
 class Triangle : public Figure {
-protected:
-    int side_a, side_b, side_c;
-    int angle_a, angle_b, angle_c;
 public:
     Triangle(int side_a, int side_b, int side_c, int angle_A, int angle_B, int angle_C)
         : Figure(side_a, side_b, side_c, angle_A, angle_B, angle_C) {name = "Треугольник: ";}
